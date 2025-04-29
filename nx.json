@@ -63,6 +63,11 @@
       "linter": "eslint",
       "style": "scss",
       "unitTestRunner": "vitest"
+    },
+    "@nx/angular:component": {
+      "style": "scss",
+      "skipTests": "true",
+      "changeDetection": "OnPush"
     }
   }
 }
